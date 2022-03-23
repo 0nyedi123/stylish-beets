@@ -19,7 +19,7 @@ header + footer {
 
 h1, h2 {
   font-family: 'PT Sans', sans-serif;
-  font-style: bold;
+  font-weight: bold;
   color: #3f1622;
 }
 
@@ -44,12 +44,12 @@ figure figcaption {
 
 p time {
   font-family: 'PT Serif', serif;
-  font-style: bold;
+  font-weight: bold;
 }
 
 p {
   font-family: 'PT Serif', serif;
-  font-style: bold;
+  font-weight: bold;
 }
 
 p b {
@@ -58,6 +58,7 @@ p b {
 
 p {
   font-family: 'PT Serif', serif;
+  font-style: normal;
 }
 
 p cite {
