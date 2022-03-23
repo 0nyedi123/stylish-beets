@@ -18,6 +18,8 @@ header + footer {
 }
 
 h1, h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: bold;
   color: #3f1622;
 }
 
@@ -33,4 +35,45 @@ a:link {
 
 img {
   width: 100%;
+}
+
+figure figcaption {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+}
+
+p time {
+  font-family: 'PT Serif', serif;
+  font-style: bold;
+}
+
+p {
+  font-family: 'PT Serif', serif;
+  font-style: bold;
+}
+
+p b {
+  font-family: 'PT Serif', serif;
+}
+
+p {
+  font-family: 'PT Serif', serif;
+}
+
+p cite {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+}
+
+p i {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+}
+
+
+
+
+ol li {
+  font-family: 'PT Serif', serif;
+  font-style: normal;
 }
