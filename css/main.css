@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: #f2f1ed;
+  background-color: #c9b5ab;
   font-family: Georgia, serif;
   line-height: 1.5;
 }
@@ -10,61 +10,27 @@ html {
 }
 
 body {
-  background-color: #fdf6e3;
+  background-color: #c9b5ab;
 }
 
 header + footer {
   font-size: 1.5rem;
 }
 
-nav ul {
+h1, h2 {
+  color: #3f1622;
+}
+
+nav ol {
   font-family: sans-serif;
+  color: #8f2440;
 }
 
-.logo {
-  text-transform: uppercase;
+a,
+a:link {
+  color: #3f1622;
 }
 
-.wrapper {
-  background-color: #eee8d5;
-}
-
-#contents, #favs, #facts, #types {
-  color: #93a1a1;
-}
-
-.wrapper > .dfn {
-  background-color: #b58900;
-}
-
-.dfn p + strong {
-  color: #fff;
-}
-
-a:not(.no-highlight) {
-  background-color: #719e07;
-}
-
-a[rel="external"] {
-  background-color: #2694d8;
-}
-
-ol li:first-child {
-  color: #719e47;
-}
-
-ol li:last-child {
-  color: #2aa198;
-}
-
-.types li:nth-child(odd) {
-  background-color: #657ba3;
-}
-
-.types li:nth-child(even) {
-  background-color: #586e75;
-}
-
-.types li:nth-child(3n) {
-  background-color: #d04b16;
+img {
+  width: %50;
 }
