@@ -29,6 +29,7 @@ nav a{
   list-style: none;
 }
 
+a,
 nav a:hover {
   color: #3f1622;
   list-style-type: none;
@@ -51,16 +52,12 @@ p time {
 
 p {
   font-family: 'PT Serif', serif;
+  font-style: normal;
 }
 
-p b {
+p > b {
   font-family: 'PT Serif', serif;
   font-weight: bold;
-}
-
-p {
-  font-family: 'PT Serif', serif;
-  font-style: normal;
 }
 
 p cite {
@@ -89,11 +86,6 @@ ol li {
   font-style: normal;
   list-style-type: lower-alpha;
   list-style-type: lower-greek;
-}
-
-p {
-  font-family: 'PT Serif', serif;
-  font-style: italic;
 }
 
 dl dt {
