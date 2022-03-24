@@ -22,7 +22,7 @@ h1, h2 {
   font-weight: bold;
   color: #3f1622;
 }
-a{
+a {
   font-family: "PT Sans", sans-serif;
   color: #8f2440;
   text-decoration: none;
@@ -40,7 +40,7 @@ img {
 }
 
 figure figcaption {
-  font-family: "PT serif", serif;
+  font-family: "PT Serif", serif;
   font-style: italic;
   text-align: center;
 }
@@ -99,6 +99,6 @@ ul li {
   list-style-type: circle;
 }
 
-source{
+source {
   font-family: "PT serif", serif;
 }
