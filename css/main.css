@@ -29,8 +29,10 @@ nav a{
   list-style: none;
 }
 
-a,
-nav a:hover {
+a{
+  text-decoration: none;
+}
+a:hover {
   color: #3f1622;
   list-style-type: none;
 }
